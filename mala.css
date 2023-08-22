@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 55, 147);
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#panel{
+    overflow: hidden;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0px 30%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(7, 28, 122);
+}
+.element{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+h3{
+    padding: 18px 40px;
+    /* margin: 60px; */
+}
+.box{
+    /* padding: 10px; */
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: rgb(0, 65, 30);
+    font-weight: 700;
+    /* font-size: 25px; */
+    padding: 10px 20px;
+}
+#pbtm{
+    gap: 11px;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    height: calc(100% - 90px);
+    margin: 10px;
+}
+.bubble{
+    display: flex;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(7, 28, 122);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 500;
+}
+.bubble:hover{
+    background-color: rgb(74, 101, 216);
+    cursor: pointer;
+    
+}
